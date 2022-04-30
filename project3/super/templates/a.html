@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body bgcolor="orange">
+<form action="expression" method="post">
+     {% csrf_token %}
+    Ist value:<input type="text" name="text1">
+    2nd value:<input type="text" name="text2">
+    <button name="submit" type="submit" >Submit</button>
+</form>
+<h1>hello {{titles}} </h1>
+<a href="{{link}}">Home</a>
+</body>
+</html>
